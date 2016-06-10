@@ -55,7 +55,7 @@ $route['registrar'] = 'register/index';
 
 
 
-$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'welcome/index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 

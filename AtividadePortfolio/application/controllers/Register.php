@@ -22,8 +22,8 @@ class Register extends CI_Controller {
             
     function index() {
         
-        $this->form_validation->set_message('required', 'O %s Ã© necessario');
-        $this->form_validation->set_message('min_length', 'Isso nÃ£o Ã© um %s valido');
+        $this->form_validation->set_message('required', 'O campo é necessario');
+        $this->form_validation->set_message('min_length', 'Esse valor não é valido');
         
         $this->form_validation->set_rules('usr_fname', 'nome', 'required|min_length[3]');
         $this->form_validation->set_rules('usr_lname', 'sobrenome', 'required|min_length[5]');

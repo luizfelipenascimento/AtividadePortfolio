@@ -1,6 +1,6 @@
 
 		<br><br>
-		<div id="footer"><em>&copy; <?php echo "LP II ". date('Y')?></em></div>
+		<div id="footer"><em>&copy; <?php echo "LP II Luiz Felipe Silva do Nascimento ". date('Y')?></em></div>
 		</div> <!-- fim do container -->	
 	</body>
 </html>
